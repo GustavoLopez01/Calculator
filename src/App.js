@@ -1,10 +1,11 @@
+import { Calculator } from "./components/Calculator";
 
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className="bg-gradient-to-r from-slate-900 to-slate-600 w-screen h-screen">
+        <Calculator/>
+    </div>
   );
 }
 
